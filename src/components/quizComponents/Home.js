@@ -1,5 +1,4 @@
 import React from 'react'
-import classes from "./Home.module.css"
 import Button from './Button'
 
 function Home() {
@@ -7,14 +6,14 @@ function Home() {
   const buttons = ["C" , "Del" , "/" , "9" , "8" , "7" , "*" , "6" ,  "5" , "4", "+" , "3"  , "2" , "1" , "-" , "." , "0" , "="]
 
   return (
-    <div className={classes.home}>
-      <div className={classes.inner}>
-            <div className={classes.result}>
-              <div className={classes.resbox}>
+    <div className="home">
+      <div className="inner">
+            <div className="result">
+              <div className="resbox">
 
               </div>
             </div>
-            <div className={classes.btns}>
+            <div className="btns">
               {buttons.map((ele , index) => <Button value={ele} key={index}/>)}
             </div>
       </div>
