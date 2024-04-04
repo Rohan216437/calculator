@@ -27,8 +27,8 @@ code {
   height: 640px;
   width: 425px;
   border-radius: 30px;
-  background-color: skyblue;
-  box-shadow: 20px 20px 60px #61acc8, -20px -20px 60px #ffffff;
+  background-color: white;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
 .result{
@@ -40,17 +40,22 @@ code {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 30px;
-  background-color: #f4f1f1;
-  box-shadow: 10px 10px 30px #61acc8, -10px -10px 30px #ffffff;
+  background-color: white;
+  box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
 }
 
 .resbox{
   width: 390px;
   height: min-content;
   overflow-y: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 10px;
+  /* padding-right: 10px; */
   text-align: right;
+  margin-bottom: 10px;
+}
+
+.resbox::-webkit-scrollbar{
+  display: none;
 }
 
 .btns{
@@ -76,11 +81,11 @@ code {
   border-radius: 30px;
   background-color: #f4f1f1;
   user-select: none;
-  box-shadow: 10px 10px 30px #61acc8, -10px -10px 30px #ffffff;
+  box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
 
 }
 
 .res{
   width: 194px;
-  background-color: #F78523;
+  background-color: #e8730c;
 }

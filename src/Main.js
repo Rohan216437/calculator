@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from './components/quizComponents/Home'
+import Calculator from './components/quizComponents/Calc'
 
 function Main() {
   return (
   <>
-  <Home />
+  <Calculator />
   </>
   )
 }
