@@ -13,6 +13,12 @@ function Calculator() {
   }
 
   const handler = (arg) => {
+
+    if(res === "Infinity"){
+      setRes("");
+      return;
+    }
+
     if(arg === "C") setRes(" ");
     else if( arg === "=") findval();
     else if(arg === "Del"){
