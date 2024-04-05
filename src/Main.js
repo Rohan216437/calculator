@@ -1,5 +1,5 @@
 import React from 'react'
-import Calculator from './components/quizComponents/Calc'
+import Calculator from './components/calcComponents/Calc'
 
 function Main() {
   return (
