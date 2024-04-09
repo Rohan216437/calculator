@@ -1,19 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import BrowserRouter as Router
+import { BrowserRouter, Route, Routes } from 'react-router-dom'; // Import BrowserRouter as Router
 import Main from './Main';
-import Calculator from './components/calcComponents/Calc'; // Import Calculator component
-import SimonGame from './components/simonSays/SimonGame'; // Import SimonGame component
+import Calculator from './pages/calcComponents/Calc'; // Import Calculator component
+import SimonGame from './pages/simonSays/SimonGame'; // Import SimonGame component
 
 function App() {
   return (
-    <Router>
-      <p>hello world</p>
+    <div>
+      <BrowserRouter>
       <Routes>
-      <Route path="/" exact component={Main} /> {/* Set Main as the default component */}
-      <Route path="/calculator" component={Calculator} /> {/* Route for Calculator */}
-      <Route path="/simon" component={SimonGame} /> {/* Route for SimonGame */}
+      <Route path="/" exact element={<Main />} /> {/* Set Main as the default component */}
+      <Route path="/calculator" element={<Calculator />} /> {/* Route for Calculator */}
+      <Route path="/simon" component={<SimonGame />} /> {/* Route for SimonGame */}
       </Routes>
-    </Router>
+    </BrowserRouter>
+    </div>
   );
 }
 
