@@ -1,7 +1,6 @@
 import { GitHub, Instagram, LinkedIn, Twitter } from '@mui/icons-material'
 // import { HashLink as Link } from 'react-router-hash-link'
 import { Link } from 'react-router-dom';
-// import './leftbar.scss'
 import { useState } from 'react'
 
 const Leftbar = () => {
@@ -17,7 +16,7 @@ const Leftbar = () => {
      <div className='top mb-24 md:mb-8 lg:mb-8'>
   <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Rohan Gupta</h1>
   <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold my-4 md:my-6 lg:my-6">Web developer</h3>
-  <p className="text-base md:text-lg lg:text-xl text-blue-500">I built accessible, inclusive <br /> products and digital experiences for the web</p>
+  <p className="text-base md:text-lg lg:text-xl text-blue-300">I built accessible, inclusive <br /> products and digital experiences for the web</p>
 </div>
 
       <div className='center'>
@@ -49,7 +48,7 @@ const Leftbar = () => {
       <div className='bottom'>
         <ul>
           <li>
-            <a href='https://github.com/salman7875' target='_blank'>
+            <a href='#' target='_blank'>
               <GitHub className='icon' />
             </a>
           </li>
@@ -65,7 +64,7 @@ const Leftbar = () => {
           </li>
           <li>
             <a
-              href='https://www.linkedin.com/in/mohammad-salman-ansari-6b8929253/'
+              href='#'
               target='_blank'
             >
               <LinkedIn className='icon' />
