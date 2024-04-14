@@ -12,7 +12,7 @@ const Leftbar = () => {
   }
 
   return (
-      <div className="text-white overflow-hidden m-4">
+      <div className="text-white overflow-hidden m-4 ">
         <div className="md:flex md:flex-col md:justify-center md:h-45vh md:pt-8 lg:flex lg:flex-col lg:justify-center lg:h-24vh lg:pt-8 lg:mb-8">
           <div className='top mb-24 md:mb-8 lg:mb-8'>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Rohan Gupta</h1>
@@ -24,7 +24,7 @@ const Leftbar = () => {
               smooth
               // to='about'
               onClick={() => handleLinkClick('about')}
-              className={`text-blue-300 hover:text-white font-semibold flex items-center ${activeLink === 'about' ? 'text-white' : ''}`}
+              className={`text-blue-300 hover:text-white hover:text-lg font-semibold flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'about' ? 'text-white text-lg' : ''}`}
             >
               ABOUT {activeLink === 'about' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
             </Link>
@@ -32,7 +32,7 @@ const Leftbar = () => {
               smooth
               // to='skills'
               onClick={() => handleLinkClick('skills')}
-              className={`text-blue-300 hover:text-white font-semibold flex items-center ${activeLink === 'skills' ? 'text-white' : ''}`}
+              className={`text-blue-300 hover:text-white hover:text-lg font-semibold flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'skills' ? 'text-white text-lg' : ''}`}
             >
               SKILLS {activeLink === 'skills' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
             </Link>
@@ -40,7 +40,7 @@ const Leftbar = () => {
               smooth
               // to='projects'
               onClick={() => handleLinkClick('projects')}
-              className={`text-blue-300 hover:text-white font-semibold flex items-center ${activeLink === 'projects' ? 'text-white' : ''}`}
+              className={`text-blue-300 hover:text-white hover:text-lg font-semibold flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'projects' ? 'text-white text-lg' : ''}`}
             >
               PROJECTS {activeLink === 'projects' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
             </Link>
