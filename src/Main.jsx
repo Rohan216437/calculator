@@ -6,12 +6,12 @@ import Rightbar from './pages/RightBar/Rightbar'
 function Main() {
   return (
     <div>
-      <div className="bg-gradient-to-b from-sky-500 to-black flex items-center justify-center h-screen px-24">
-      <div className="w-5/6 h-5/6 items-center justify-center grid grid-cols-2">
-        <Leftbar />
-        <Rightbar />
+      <div className="bg-gradient-to-b from-sky-500 to-black flex items-center justify-center h-screen px-12">
+        <div className="w-11/12 h-5/6 items-center justify-center grid grid-cols-2">
+          <Leftbar />
+          <Rightbar />
+        </div>
       </div>
-    </div>
       <div className="flex justify-center space-x-4 mb-4">
         <Link to="/calculator" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Calculator</Link>
         <Link to="/simon" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Simon Game</Link>
