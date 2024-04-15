@@ -52,11 +52,11 @@ const Leftbar = () => {
                   <GitHub className='icon text-blue-300 hover:text-white transition-colors duration-200' />
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href='#'>
                   <Instagram className='icon text-blue-300 hover:text-white transition-colors duration-200' />
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href='#'>
                   <Twitter className='icon text-blue-300 hover:text-white transition-colors duration-200' />
