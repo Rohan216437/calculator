@@ -95,3 +95,7 @@ code {
   width: 194px;
   background-color: #e8730c;
 }
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
