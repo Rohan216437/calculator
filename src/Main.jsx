@@ -12,9 +12,11 @@ function Main() {
           <Rightbar />
         </div>
       </div>
-      <div className="flex justify-center space-x-4 mb-4">
+      <div className="bg-black flex justify-center items-center h-screen ">
+        <div className=''>
         <Link to="/calculator" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Calculator</Link>
         <Link to="/simon" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Simon Game</Link>
+        </div>
       </div>
     </div>
   );
