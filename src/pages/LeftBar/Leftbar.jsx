@@ -19,12 +19,12 @@ const Leftbar = () => {
             <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold my-4 md:my-6 lg:my-6">Web developer</h3>
             <p className="text-base md:text-lg lg:text-xl text-blue-300">I am an enthusiastic coder, <br />dedicated to mastering FullStack Web Development.</p>  
           </div>
-          <div className='center mb-20 md:mb-10 hidden md:flex flex-col '>
+          <div className='center mb-20 md:mb-10 hidden md:flex flex-col h-20'>
             <Link
               smooth
               // to='about'
               onClick={() => handleLinkClick('about')}
-              className={`text-blue-300 hover:text-white hover:text-lg font-semibold flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'about' ? 'text-white text-lg' : ''}`}
+              className={`text-blue-300 hover:text-white hover:text-lg font-semibold mb-2 flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'about' ? 'text-white text-lg' : ''}`}
             >
               ABOUT {activeLink === 'about' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
             </Link>
@@ -32,7 +32,7 @@ const Leftbar = () => {
               smooth
               // to='skills'
               onClick={() => handleLinkClick('skills')}
-              className={`text-blue-300 hover:text-white hover:text-lg font-semibold flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'skills' ? 'text-white text-lg' : ''}`}
+              className={`text-blue-300 hover:text-white hover:text-lg font-semibold mb-2 flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'skills' ? 'text-white text-lg' : ''}`}
             >
               SKILLS {activeLink === 'skills' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
             </Link>
@@ -40,7 +40,7 @@ const Leftbar = () => {
               smooth
               // to='projects'
               onClick={() => handleLinkClick('projects')}
-              className={`text-blue-300 hover:text-white hover:text-lg font-semibold flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'projects' ? 'text-white text-lg' : ''}`}
+              className={`text-blue-300 hover:text-white hover:text-lg font-semibold mb-2 flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'projects' ? 'text-white text-lg' : ''}`}
             >
               PROJECTS {activeLink === 'projects' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
             </Link>
