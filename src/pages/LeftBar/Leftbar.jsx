@@ -4,13 +4,7 @@ import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 import { Link } from 'react-router-dom';
 import { useState } from 'react'
 
-const Leftbar = () => {
-  const [activeLink, setActiveLink] = useState('about')
-
-  const handleLinkClick = item => {
-    setActiveLink(item)
-  }
-
+const Leftbar = ({ activeSection, handleLinkClick }) => {
   return (
       <div className="text-white overflow-hidden m-4 ">
         <div className="md:flex md:flex-col md:justify-center md:h-45vh md:pt-8 lg:flex lg:flex-col lg:justify-center lg:h-24vh lg:pt-8 lg:mb-8">
@@ -24,25 +18,25 @@ const Leftbar = () => {
               smooth
               // to='about'
               onClick={() => handleLinkClick('about')}
-              className={`text-blue-300 hover:text-white hover:text-lg font-semibold mb-2 flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'about' ? 'text-white text-lg' : ''}`}
+              className={`text-blue-300 hover:text-white hover:text-lg font-semibold mb-2 flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeSection === 'about' ? 'text-white text-lg' : ''}`}
             >
-              ABOUT {activeLink === 'about' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
+              ABOUT {activeSection === 'about' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
             </Link>
             <Link
               smooth
               // to='skills'
               onClick={() => handleLinkClick('skills')}
-              className={`text-blue-300 hover:text-white hover:text-lg font-semibold mb-2 flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'skills' ? 'text-white text-lg' : ''}`}
+              className={`text-blue-300 hover:text-white hover:text-lg font-semibold mb-2 flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeSection === 'skills' ? 'text-white text-lg' : ''}`}
             >
-              SKILLS {activeLink === 'skills' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
+              SKILLS {activeSection === 'skills' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
             </Link>
             <Link
               smooth
               // to='projects'
               onClick={() => handleLinkClick('projects')}
-              className={`text-blue-300 hover:text-white hover:text-lg font-semibold mb-2 flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeLink === 'projects' ? 'text-white text-lg' : ''}`}
+              className={`text-blue-300 hover:text-white hover:text-lg font-semibold mb-2 flex items-center transition-all duration-200 ease-in-out cursor-pointer ${activeSection === 'projects' ? 'text-white text-lg' : ''}`}
             >
-              PROJECTS {activeLink === 'projects' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
+              PROJECTS {activeSection === 'projects' ? <span className='pl-5 w-20'><TrendingFlatIcon /></span> : ''}
             </Link>
           </div>
           <div>
