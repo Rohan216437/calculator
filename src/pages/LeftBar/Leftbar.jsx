@@ -13,7 +13,7 @@ const Leftbar = ({ activeSection, handleLinkClick }) => {
             <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold my-4 md:my-6 lg:my-6">Web developer</h3>
             <p className="text-base md:text-lg lg:text-xl text-blue-300">I am an enthusiastic coder, <br />dedicated to mastering FullStack Web Development.</p>  
           </div>
-          <div className='center mb-20 md:mb-10 hidden md:flex flex-col h-20'>
+          <div className='center mb-20 md:mb-10 hidden md:flex flex-col h-20 w-20'>
             <Link
               smooth
               // to='about'
