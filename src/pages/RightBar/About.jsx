@@ -13,7 +13,6 @@ function About() {
       entries => {
         const entry = entries[0]
         setIsVisible(entry.isIntersecting)
-        console.log("entry--------------->>>" , entry)
       },
       {
         threshold: 0.2
