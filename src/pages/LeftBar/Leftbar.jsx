@@ -42,7 +42,7 @@ const Leftbar = ({ activeSection, handleLinkClick }) => {
           <div>
             <ul className='list-none flex gap-8'>
               <li>
-                <a href='#' target='_blank'>
+                <a href='https://github.com/Rohan216437' target='_blank'>
                   <GitHub className='icon text-blue-300 hover:text-white transition-colors duration-200' />
                 </a>
               </li>
@@ -52,13 +52,13 @@ const Leftbar = ({ activeSection, handleLinkClick }) => {
                 </a>
               </li> */}
               <li>
-                <a href='#'>
+                <a href='https://twitter.com/probably_rohan'>
                   <Twitter className='icon text-blue-300 hover:text-white transition-colors duration-200' />
                 </a>
               </li>
               <li>
                 <a
-                  href='#'
+                  href='https://www.linkedin.com/in/rohan-gupta-5602b721b/'
                   target='_blank'
                 >
                   <LinkedIn className='icon text-blue-300 hover:text-white transition-colors duration-200' />
