@@ -25,6 +25,7 @@ code {
   height: 100vh;
   width: 100vw;
   display: flex;
+  background-color: skyblue;
   justify-content: center;
   align-items: center;
 }
