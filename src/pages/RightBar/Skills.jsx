@@ -5,7 +5,19 @@ import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 
 
 const Skills = () => {
-  
+  const mainRef = useRef()
+  const [main, setMain] = useState()
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        const entry = entries[0]
+        setMain(entry.isIntersecting)
+      },
+      { threshold: 0.2 }
+    )
+    observer.observe(mainRef.current)
+  })
 
   return (
     <div
