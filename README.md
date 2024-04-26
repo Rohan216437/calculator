@@ -5,7 +5,7 @@ This is a portfolio website built using React.js and Tailwind CSS. It showcases 
 
 
 ## Technologies Used
-- ![React.js](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg): A JavaScript library for building user interfaces.
+- ![React.js](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg =32×32): A JavaScript library for building user interfaces.
 - ![Tailwind CSS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg): A utility-first CSS framework for building custom designs.
 - React Router: A library for managing routes in React applications.
 
