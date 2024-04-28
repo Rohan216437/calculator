@@ -1,7 +1,8 @@
-# Portfolio
+## Portfolio Website
+Welcome to my portfolio website built using React.js and Tailwind CSS! This website serves as a showcase of my skills and projects.
 
 ## Overview
-This is a portfolio website built using React.js and Tailwind CSS. It showcases my skills, projects, and providing visitors with insights into my journey as a developer.
+This portfolio website is designed and developed by [Your Name]. It showcases a collection of my projects, provides information about my skills and experience, and offers a way for visitors to get in touch with me.
 
 
 ## Technologies Used
