@@ -1,6 +1,7 @@
 {
   "homepage": "https://Rohan216437.github.io/",
   "name": "calculator",
+  "author" : "Rohan Gupta",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
